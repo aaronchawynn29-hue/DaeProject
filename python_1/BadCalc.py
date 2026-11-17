@@ -118,7 +118,7 @@ class TrashCalculator:
 
             # checks to see if any current operators are in the operators list
             # if so, evaluate numbers 1 behind and after that position with the operator in that position
-            for iterator in range (startingPoint, endingPoint, increment):
+            for iterator in range(startingPoint, endingPoint, increment):
                 
                 if (str(equationOperations[iterator]) == operationOne):
                     equationEvaluated = True;
